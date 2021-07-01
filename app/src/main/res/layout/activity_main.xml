@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/top"
+        style="@style/normalStyle"
+        android:background="@color/xy"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/normalStyle"
+            android:layout_weight="5"
+            android:padding="@dimen/dp_20"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            style="@style/normalStyle"
+            android:layout_weight="1"
+            android:text="What topic do you love?"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_20" />
+    </LinearLayout>
+
+    <ScrollView
+        style="@style/normalStyle"
+        android:layout_above="@+id/bottom"
+        android:layout_below="@+id/top">
+
+        <LinearLayout
+            style="@style/normalStyle"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/normalStyle"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+                <TextView
+                    style="@style/wStyle"
+                    android:background="@drawable/bg"
+                    android:text="Books" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        style="@style/normalStyle"
+        android:layout_alignParentBottom="true"
+        android:background="@color/xy"
+        android:gravity="center">
+
+        <Button
+            style="@style/buttonStyle"
+            android:background="@drawable/btn_bg"
+            android:text="Continue"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</RelativeLayout>
